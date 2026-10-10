@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft drop shadow -->
+    <path
+        android:fillColor="#18000000"
+        android:pathData="M30,34 h46 c8,0 14,6 14,14 v20 c0,8 -6,14 -14,14 H30 c-8,0 -14,-6 -14,-14 V48 c0,-8 6,-14 14,-14z" />
+
+    <!-- Letter 'D' Outer Chassis (Blue metallic frame) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M32,30 h26 c12,0 20,8 20,20 v8 c0,12 -8,20 -20,20 H32 c-6,0 -10,-4 -10,-10 V40 c0,-6 4,-10 10,-10z" />
+
+    <!-- 'D' Inner cut-out -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M38,40 h14 c6,0 10,4 10,10 v4 c0,6 -4,10 -10,10 H38 c-2,0 -4,-2 -4,-4 V44 c0,-2 2,-4 4,-4z" />
+
+    <!-- 'D' Left vertical fader track & ticks -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M27,42 v24" />
+
+    <!-- 'D' Fader slider knob -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M27,52m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M27,52m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+
+    <!-- Amber LED on 'D' -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M28,36m-1.5,0a1.5,1.5 0 1,1 3,0a1.5,1.5 0 1,1 -3,0" />
+
+    <!-- Letter 'M' (Right side, Cyan + Golden Amber) -->
+    <path
+        android:fillColor="#00B4D8"
+        android:pathData="M56,58 L66,38 L76,52 L82,34 L92,56 V78 H80 V58 L76,64 L66,48 L62,64 H56 Z" />
+
+    <!-- 'M' Amber Accent Layer -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M80,48 L86,36 L92,56 V78 H86 V56 Z" />
+
+    <!-- 'M' Fader slider track on right leg -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0C4A6E"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M88,58 v16" />
+
+    <!-- 'M' slider knob -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M88,68m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M88,68m-1,0a1,1 0 1,1 2,0a1,1 0 1,1 -2,0" />
+
+    <!-- Center Gear Dial (Bridging D and M at x=54, y=52) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M54,52m-13,0a13,13 0 1,1 26,0a13,13 0 1,1 -26,0" />
+
+    <!-- Outer Gear teeth ring (amber & cyan border) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.5"
+        android:pathData="M54,52m-11.5,0a11.5,11.5 0 1,1 23,0a11.5,11.5 0 1,1 -23,0" />
+
+    <!-- Gear Teeth dots -->
+    <path android:fillColor="#E2E8F0" android:pathData="M54,40.5m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+    <path android:fillColor="#E2E8F0" android:pathData="M54,63.5m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+    <path android:fillColor="#E2E8F0" android:pathData="M42.5,52m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+    <path android:fillColor="#E2E8F0" android:pathData="M65.5,52m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+
+    <!-- Inner Core Gear Dial (Cyan metallic) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M54,52m-8,0a8,8 0 1,1 16,0a8,8 0 1,1 -16,0" />
+
+    <!-- Center metallic button & cyan dot -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M54,52m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#00B4D8"
+        android:pathData="M54,52m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0" />
+
+</vector>

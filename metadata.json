@@ -1,0 +1,6 @@
+{
+  "name": "Device master",
+  "description": "Hands-free voice control and background phone automation for device hardware, volume, apps, customizable web data extraction, and AI models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
